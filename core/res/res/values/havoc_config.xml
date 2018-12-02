@@ -40,9 +40,6 @@
     <string-array name="config_forceEnabledComponents" translatable="false">
     </string-array>
 
-    <integer name="config_buttonBrightnessSettingDefault">255</integer>
-    <bool name="config_deviceHasVariableButtonBrightness">false</bool>
-
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">false</bool>
 
@@ -186,6 +183,9 @@
 
     <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
     <bool name="config_cleanupUnusedFingerprints">true</bool>
+
+    <bool name="config_button_brightness_support">false</bool>
+    <integer name="config_button_brightness_default">128</integer>
 
     <!-- Whether the device has outdated qti-telephony-common.jar -->
     <bool name="config_oldQtiTelephony">true</bool>
