@@ -217,6 +217,12 @@ public class Build {
                 "ro.build.version.security_patch", "");
 
         /**
+         * The build date.
+         */
+        public static final String HAVOC_BUILD_DATE = SystemProperties.get(
+                "ro.havoc.build.date", "");
+
+        /**
          * The user-visible SDK version of the framework in its raw String
          * representation; use {@link #SDK_INT} instead.
          *

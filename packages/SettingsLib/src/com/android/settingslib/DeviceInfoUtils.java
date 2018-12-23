@@ -169,6 +169,23 @@ public class DeviceInfoUtils {
         }
     }
 
+    public static String getHavocBuildDate() {
+        String havocbuild = Build.VERSION.HAVOC_BUILD_DATE;
+        if (!"".equals(havocbuild)) {
+            try {
+                SimpleDateFormat template = new SimpleDateFormat("dd-MM-yyyy");
+                Date havocbuildDate = template.parse(havocbuild);
+                String format = DateFormat.getBestDateTimePattern(Locale.getDefault(), "dMMMMyyyy");
+                havocbuild = DateFormat.format(format, havocbuildDate).toString();
+            } catch (ParseException e) {
+                // broken parse; fall through and use the raw string
+            }
+            return havocbuild;
+        } else {
+            return null;
+        }
+    }
+
     public static String getFormattedPhoneNumber(Context context, SubscriptionInfo subscriptionInfo) {
         String formattedNumber = null;
         if (subscriptionInfo != null) {
