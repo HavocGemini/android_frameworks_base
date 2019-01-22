@@ -969,6 +969,8 @@ public class PhoneWindowManager implements WindowManagerPolicy {
 
     private boolean mHasPermanentMenuKey;
 
+    private boolean mTorchProximityCheck;
+
     private boolean mClearedBecauseOfForceShow;
     private boolean mTopWindowIsKeyguard;
 
@@ -1153,7 +1155,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     }
 
     private void toggleFlashLightProximityCheck() {
-        if (mProximitySensor != null && mProximityTimeOut != -1) {
+        if (mProximitySensor != null && mProximityTimeOut != -1 && mTorchProximityCheck) {
             if (mHandler.hasMessages(MSG_CLEAR_PROXIMITY)) {
                 // A message is already queued
                 return;
@@ -1317,6 +1319,9 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
                     Settings.System.BOTTOM_GESTURE_FEEDBACK_DURATION), false, this,
+                    UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.POWER_BUTTON_TORCH_CHECK), false, this,
                     UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
                     Settings.System.USE_EDGE_SERVICE_FOR_GESTURES), false, this,
@@ -3303,6 +3308,9 @@ public class PhoneWindowManager implements WindowManagerPolicy {
             // volume rocker wake
             mVolumeRockerWake = Settings.System.getIntForUser(resolver,
                     Settings.System.VOLUME_ROCKER_WAKE, 0, UserHandle.USER_CURRENT) != 0;
+
+            mTorchProximityCheck = Settings.System.getIntForUser(resolver,
+                    Settings.System.POWER_BUTTON_TORCH_CHECK, 0, UserHandle.USER_CURRENT) == 1;
 
 	        // home wake button
             mHomeWakeButton = Settings.System.getIntForUser(resolver,

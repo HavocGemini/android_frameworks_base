@@ -5203,6 +5203,11 @@ public final class Settings {
         public static final String POWERMENU_LOCKSCREEN = "powermenu_lockscreen";
 
         /**
+         * @hide
+         */
+        public static final String POWER_BUTTON_TORCH_CHECK = "power_button_torch_check";
+
+        /**
          * Whether to display cross sign for a data disabled connection
          * @hide
          */
