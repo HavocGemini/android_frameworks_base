@@ -3440,7 +3440,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
             }
 
             mIncallHomeBehavior = (Settings.System.getIntForUser(resolver,
-                    Settings.System.ALLOW_INCALL_HOME, 1, UserHandle.USER_CURRENT) == 1);
+                    Settings.System.ALLOW_INCALL_HOME, 0, UserHandle.USER_CURRENT) == 1);
 
 
             mUseGestureButton = Settings.System.getIntForUser(resolver,
@@ -4723,12 +4723,12 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     return -1;
                 }
 
-                // If an incoming call is ringing and mIncallHomeBehavior=false, HOME is totally disabled.
-                TelecomManager telecomManager = getTelecommService();
-                if (telecomManager != null && telecomManager.isRinging()
-                        && !mIncallHomeBehavior) {
-                      Log.i(TAG, "Ignoring HOME; there's a ringing incoming call.");
-                      return -1;
+                if (mIncallHomeBehavior) {
+                    final TelecomManager telecomManager = getTelecommService();
+                    if (telecomManager != null && telecomManager.isRinging()) {
+                        telecomManager.acceptRingingCall();
+                        return -1;
+                    }
                 }
 
                 // Delay handling home if a double-tap is possible.
