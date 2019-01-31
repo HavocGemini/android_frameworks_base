@@ -579,7 +579,7 @@
         <item>100</item>
     </array>
     <array name="batterymeter_color_values">
-        <item>?android:attr/colorError</item>
+        <item>#ffc72d</item>
         <item>@android:color/white</item>
     </array>
     <array name="batterymeter_bolt_points">
