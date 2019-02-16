@@ -555,12 +555,14 @@ public class PhoneStatusBarPolicy implements Callback, Callbacks,
     private boolean showBatteryForThis(BluetoothClass type) {
         boolean show = false;
         if (type != null) {
+		Log.i(TAG, "btdevice = " + type.getDeviceClass());
             switch (type.getDeviceClass()) {
             case BluetoothClass.Device.AUDIO_VIDEO_WEARABLE_HEADSET:
             case BluetoothClass.Device.AUDIO_VIDEO_HANDSFREE:
             case BluetoothClass.Device.AUDIO_VIDEO_PORTABLE_AUDIO:
             case BluetoothClass.Device.AUDIO_VIDEO_LOUDSPEAKER:
             case BluetoothClass.Device.AUDIO_VIDEO_HEADPHONES:
+			case BluetoothClass.Device.Major.UNCATEGORIZED:
                 show = true;
                 break;
             default:

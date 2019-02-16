@@ -125,6 +125,7 @@
     <item msgid="4118561796005528173">"Выбор системы (по умолчанию)"</item>
     <item msgid="8900559293912978337">"Моно"</item>
     <item msgid="8883739882299884241">"Стерео"</item>
+    <item>Dual Channel</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
     <item msgid="7158319962230727476">"Оптимизировать качество звука (990/909 Кбит/с)"</item>
