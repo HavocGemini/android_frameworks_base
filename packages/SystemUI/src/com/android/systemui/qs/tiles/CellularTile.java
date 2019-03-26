@@ -188,7 +188,7 @@ public class CellularTile extends QSTileImpl<SignalState> {
         if (cb.noSim) {
             state.icon = ResourceIcon.get(R.drawable.ic_qs_no_sim);
         } else {
-            state.icon = ResourceIcon.get(R.drawable.ic_qs_cellular);
+            state.icon = ResourceIcon.get(R.drawable.ic_swap_vert);
         }
 
         if (cb.noSim) {
