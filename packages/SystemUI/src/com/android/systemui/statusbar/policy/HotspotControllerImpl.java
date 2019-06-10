@@ -155,6 +155,11 @@ public class HotspotControllerImpl implements HotspotController, WifiManager.Sof
         }
     }
 
+    @Override
+    public int getNumConnectedDevices() {
+        return mNumConnectedDevices;
+    }
+
     /**
      * Sends a hotspot changed callback.
      * Be careful when calling over multiple threads, especially if one of them is the main thread
@@ -179,13 +184,7 @@ public class HotspotControllerImpl implements HotspotController, WifiManager.Sof
             // counters.
             mNumConnectedDevices = 0;
         }
-
         fireHotspotChangedCallback();
-        }
-
-    @Override
-    public void onNumClientsChanged(int numConnectedDevices) {
-        // Do nothing - we don't care about changing anything here.
     }
 
     @Override
