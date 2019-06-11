@@ -11772,6 +11772,8 @@ public final class Settings {
             WIFI_DISCONNECT_DELAY_DURATION,
             FP_SWIPE_TO_DISMISS_NOTIFICATIONS,
             VOLUME_LINK_NOTIFICATION,
+            LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS,
+            LOCK_SCREEN_SHOW_NOTIFICATIONS,
         };
 
         /**
