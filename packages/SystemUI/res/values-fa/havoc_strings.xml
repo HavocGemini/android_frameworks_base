@@ -104,7 +104,7 @@
     <string name="screenrecord_notif_error">قادر به ضبط از صفحه نمایش نیست</string>
     <string name="notification_channel_screenrecord">ضبط صفحه نمایش</string>
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time">&lt;xliff:g id="percentage"&gt;%2$s&lt;/xliff:g&gt;•شارژر سریع وان پلاس (&lt;xliff:g id="charging_time_left"example="4 hours and 2 minutes"&gt;%s&lt;/xliff:g&gt;تا کامل)</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g>•شارژر سریع وان پلاس (<xliff:g id="charging_time_left"example="4 hours and 2 minutes">%1$s</xliff:g>تا کامل)</string>
     <string name="keyguard_plugged_in_dash_charging">شارژ سریع وان پلاس</string>
     <string name="camera_title_tile">دوربین</string>
     <string name="suspend_title_tile">تعلیق اقدام</string>
@@ -114,7 +114,7 @@
     <string name="calendar_title_tile">افزودن رویداد</string>
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - peeking اعلانها برای 1 دقیقه به حالت چرت زدن رفته اند.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - اعلانات به حالت چرت زدن رفتند به مدت <xliff:g id="number">%d</xliff:g> دقیقه.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - اعلانات به حالت چرت زدن رفتند به مدت <xliff:g id="number">%2$d</xliff:g> دقیقه.</string>
     <string name="statusbar_items_title">آیکون نوار وضعیت</string>
     <string name="lockscreen_default">پیشفرض</string>
     <string name="lockscreen_hidden">هیچ کدام</string>
@@ -147,7 +147,6 @@
     <string name="accessibility_quick_settings_cpuinfo_changed_off">نمایش اطلاعات پردازنده خاموش شد</string>
     <string name="accessibility_quick_settings_cpuinfo_changed_on">نمایش اطلاعات پردازنده روشن شد</string>
     <!-- Advance location quick setting tile -->
-    <string name="quick_settings_secondary_location_off"></string>
     <string name="quick_settings_location_secondary_battery_saving">صرفه جویی در باتری</string>
     <string name="accessibility_quick_settings_location_battery_saving">گزارش مکان: حالت صرفه جویی باتری.</string>
     <string name="quick_settings_location_secondary_gps_only">فقط سنسور ها</string>
@@ -254,7 +253,7 @@
     <string name="qs_menu_item_qs_columns">ستونها (نوار ابزار)</string>
     <string name="qs_menu_item_columns_auto">خودکار</string>
     <!-- Ambient Display Pixel-Like string -->
-    <string name="ambientmusic_songinfo">%s %s</string>
+    <string name="ambientmusic_songinfo">%1$s %2$s</string>
     <!-- App Picker Tile -->
     <string name="quick_settings_apppicker">چیننده نرم افزار</string>
     <!-- Pie controls -->

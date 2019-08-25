@@ -121,7 +121,7 @@
     <string name="notification_channel_screenrecord">Ekran kayıtları</string>
 	
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Dash Şarj oluyor (tam dolmasına <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> kaldı)</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Dash Şarj oluyor (tam dolmasına <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g> kaldı)</string>
     <string name="keyguard_plugged_in_dash_charging">Dash Şarj oluyor</string>
 	
     <string name="camera_title_tile">Kamera</string>
@@ -133,7 +133,7 @@
 	
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Bildirim pencereleri 1 dakika ertelendi.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - Bildirim pencereleri <xliff:g id="number">%d</xliff:g> dakika ertelendi.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - Bildirim pencereleri <xliff:g id="number">%2$d</xliff:g> dakika ertelendi.</string>
 	
     <string name="statusbar_items_title">Durum çubuğu simgeleri</string>
 	
@@ -290,7 +290,7 @@
     <string name="qs_menu_item_columns_auto">Otomatik</string>
 	
     <!-- Ambient Display Pixel-Like string -->
-    <string name="ambientmusic_songinfo">%s - %s</string>
+    <string name="ambientmusic_songinfo">%1$s - %2$s</string>
 	
     <!-- App Picker Tile -->
     <string name="quick_settings_apppicker">Uygulama seçici</string>

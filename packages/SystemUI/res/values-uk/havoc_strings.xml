@@ -104,7 +104,7 @@
     <string name="screenrecord_notif_error">Неможливо записати екран</string>
     <string name="notification_channel_screenrecord">Записи екрану</string>
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> Швидке заряджання (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> до кінця зарядки)</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> Швидке заряджання (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g> до кінця зарядки)</string>
     <string name="keyguard_plugged_in_dash_charging">Швидке заряджання</string>
     <string name="camera_title_tile">Камера</string>
     <string name="suspend_title_tile">Дії при вимиканні екрану</string>
@@ -114,7 +114,7 @@
     <string name="calendar_title_tile">Додати подію</string>
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Спливаючі сповіщення вимкнено на 1 хвилину.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - Спливаючі сповіщення вимкнено на <xliff:g id="number">%d</xliff:g> хвилин.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - Спливаючі сповіщення вимкнено на <xliff:g id="number">%2$d</xliff:g> хвилин.</string>
     <string name="statusbar_items_title">Значки рядку стану</string>
     <string name="lockscreen_default">За замовчуванням</string>
     <string name="lockscreen_hidden">Ні</string>
@@ -147,7 +147,6 @@
     <string name="accessibility_quick_settings_cpuinfo_changed_off">Інформація про процесор вимкнена</string>
     <string name="accessibility_quick_settings_cpuinfo_changed_on">Інформація про процесор увімкнута</string>
     <!-- Advance location quick setting tile -->
-    <string name="quick_settings_secondary_location_off"></string>
     <string name="quick_settings_location_secondary_battery_saving">Економія батареї</string>
     <string name="accessibility_quick_settings_location_battery_saving">Надсилання місця розташування: економія батареї.</string>
     <string name="quick_settings_location_secondary_gps_only">Тільки датчики</string>
@@ -254,7 +253,7 @@
     <string name="qs_menu_item_qs_columns">Стовпці (Швидкий доступ)</string>
     <string name="qs_menu_item_columns_auto">Автоматично</string>
     <!-- Ambient Display Pixel-Like string -->
-    <string name="ambientmusic_songinfo">%s від %s</string>
+    <string name="ambientmusic_songinfo">%1$s від %2$s</string>
     <!-- App Picker Tile -->
     <string name="quick_settings_apppicker">Вибір додатку</string>
     <!-- Pie controls -->

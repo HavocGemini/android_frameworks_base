@@ -104,7 +104,7 @@
     <string name="screenrecord_notif_error">स्क्रीन रिकॉर्ड करने में असमर्थ</string>
     <string name="notification_channel_screenrecord">स्क्रीन रिकॉर्ड</string>
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • डैश चार्जिंग (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> पूर्ण होने तक)</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • डैश चार्जिंग (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g> पूर्ण होने तक)</string>
     <string name="keyguard_plugged_in_dash_charging">डैश चार्जिंग</string>
     <string name="camera_title_tile">कैमेरा</string>
     <string name="suspend_title_tile">निलंबित क्रिया</string>
@@ -114,7 +114,7 @@
     <string name="calendar_title_tile">इवेंट जोड़ें</string>
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> सूचना देखना 1 मिनट के लिए स्थगित किया गया हैं।</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s </xliff:g> - सूचनाएँ <xliff:g id="number">%d </xliff:g> मिनट के लिए स्थगित करने हैं।</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s </xliff:g> - सूचनाएँ <xliff:g id="number">%2$d </xliff:g> मिनट के लिए स्थगित करने हैं।</string>
     <string name="statusbar_items_title">स्टेटसबार आइकन</string>
     <string name="lockscreen_default">डिफॉल्ट</string>
     <string name="lockscreen_hidden">कोई नहीं</string>
@@ -147,7 +147,6 @@
     <string name="accessibility_quick_settings_cpuinfo_changed_off">CPU जानकारी बंद कर दिया</string>
     <string name="accessibility_quick_settings_cpuinfo_changed_on">CPU जानकारी चालू कर दी</string>
     <!-- Advance location quick setting tile -->
-    <string name="quick_settings_secondary_location_off"></string>
     <string name="quick_settings_location_secondary_battery_saving">बैटरी की बचत</string>
     <string name="accessibility_quick_settings_location_battery_saving">स्थान रिपोर्टिंग: बैटरी की बचत मोड ।</string>
     <string name="quick_settings_location_secondary_gps_only">केवल सेंसर</string>
@@ -254,7 +253,7 @@
     <string name="qs_menu_item_qs_columns">स्तंभ (Quickbar)</string>
     <string name="qs_menu_item_columns_auto">आटोमेटिक</string>
     <!-- Ambient Display Pixel-Like string -->
-    <string name="ambientmusic_songinfo">%s के द्वारा %s</string>
+    <string name="ambientmusic_songinfo">%1$s के द्वारा %2$s</string>
     <!-- App Picker Tile -->
     <string name="quick_settings_apppicker">App चुनने वाला</string>
     <!-- Pie controls -->

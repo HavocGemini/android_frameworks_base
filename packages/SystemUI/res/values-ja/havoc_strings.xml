@@ -104,7 +104,7 @@
     <string name="screenrecord_notif_error">画面録画に失敗しました</string>
     <string name="notification_channel_screenrecord">画面録画</string>
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • 急速充電中 (充電完了まで <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>)</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • 急速充電中 (充電完了まで <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g>)</string>
     <string name="keyguard_plugged_in_dash_charging">急速充電中</string>
     <string name="camera_title_tile">カメラ</string>
     <string name="suspend_title_tile">スリープ時アクション</string>
@@ -114,7 +114,7 @@
     <string name="calendar_title_tile">イベント追加</string>
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - 通知の表示は1分間一時停止します</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - 通知の表示は<xliff:g id="number">%d</xliff:g>分間停止します</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - 通知の表示は<xliff:g id="number">%2$d</xliff:g>分間停止します</string>
     <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <string name="lockscreen_default">既定</string>
     <string name="lockscreen_hidden">なし</string>
@@ -246,7 +246,7 @@
     <string name="qs_menu_item_qs_columns">列数 (クイックバー)</string>
     <string name="qs_menu_item_columns_auto">自動</string>
     <!-- Ambient Display Pixel-Like string -->
-    <string name="ambientmusic_songinfo">%s - %s</string>
+    <string name="ambientmusic_songinfo">%1$s - %2$s</string>
     <!-- App Picker Tile -->
     <string name="quick_settings_apppicker">アプリの選択</string>
     <!-- Pie controls -->

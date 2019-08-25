@@ -104,7 +104,7 @@
     <string name="screenrecord_notif_error">לא ניתן להקליט את המסך</string>
     <string name="notification_channel_screenrecord">הקלטות מסך</string>
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • טעינה מהירה (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> עד מלא)</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • טעינה מהירה (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g> עד מלא)</string>
     <string name="keyguard_plugged_in_dash_charging">טעינה מהירה</string>
     <string name="camera_title_tile">מצלמה</string>
     <string name="suspend_title_tile">להשהות את הפעולה</string>
@@ -113,8 +113,8 @@
     <string name="call_title_tile">חייגן</string>
     <string name="calendar_title_tile">הוסף אירוע</string>
     <!-- Heads up snooze toast -->
-    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - התראה מציצה אינה פעילה למשך <xliff:g id="number">%d</xliff:g> דקות.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - התראת snoozing אינה פעילה למשך <xliff:g id="number">%d</xliff:g> דקות.</string>
+    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%1$s</xliff:g> - התראה מציצה אינה פעילה למשך <xliff:g id="number">%2$d</xliff:g> דקות.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - התראת snoozing אינה פעילה למשך <xliff:g id="number">%2$d</xliff:g> דקות.</string>
     <string name="statusbar_items_title">אייקון שורת מצב</string>
     <string name="lockscreen_default">ברירת מחדל</string>
     <string name="lockscreen_hidden">ללא</string>
@@ -147,7 +147,6 @@
     <string name="accessibility_quick_settings_cpuinfo_changed_off">פרטי המעבד כבויים</string>
     <string name="accessibility_quick_settings_cpuinfo_changed_on">פרטי המעבד מופעלים</string>
     <!-- Advance location quick setting tile -->
-    <string name="quick_settings_secondary_location_off"></string>
     <string name="quick_settings_location_secondary_battery_saving">חיסכון בסוללה</string>
     <string name="accessibility_quick_settings_location_battery_saving">דיווח מיקום: מצב חסכון סוללה.</string>
     <string name="quick_settings_location_secondary_gps_only">חיישנים בלבד</string>
@@ -254,7 +253,7 @@
     <string name="qs_menu_item_qs_columns">עמודות (פנל גישה מהירה)</string>
     <string name="qs_menu_item_columns_auto">אוטומטי</string>
     <!-- Ambient Display Pixel-Like string -->
-    <string name="ambientmusic_songinfo">%s מאת %s</string>
+    <string name="ambientmusic_songinfo">%1$s – %2$s</string>
     <!-- App Picker Tile -->
     <string name="quick_settings_apppicker">בחירת יישום</string>
     <!-- Pie controls -->
