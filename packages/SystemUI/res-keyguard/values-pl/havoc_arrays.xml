@@ -1,7 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <plurals name="type_clock_header">
+        <item quantity="other"><annotation name="color">Jest</annotation>\n^1\n^2</item>
+        <item quantity="one"><annotation name="color">Jest</annotation>\n^1\n^2</item>
+        <item quantity="few"><annotation name="color">Jest</annotation>\n^1\n^2</item>
+    </plurals>
     <string-array name="type_clock_hours">
-        <item>Dwanaście</item>
+        <item>Dwunasta</item>
+        <item>Pierwsza</item>
+        <item>Druga</item>
+        <item>Trzecia</item>
+        <item>Czwarta</item>
+        <item>Piąta</item>
+        <item>Szósta</item>
+        <item>Siódma</item>
+        <item>Ósma</item>
+        <item>Dziewiąta</item>
+        <item>Dziesiąta</item>
+        <item>Jedenasta</item>
+    </string-array>
+    <string-array name="type_clock_minutes">
+        <item></item>
         <item>Jeden</item>
         <item>Dwa</item>
         <item>Trzy</item>
@@ -11,20 +30,6 @@
         <item>Siedem</item>
         <item>Osiem</item>
         <item>Dziewięć</item>
-        <item>Dziesięć</item>
-        <item>Jedenaście</item>
-    </string-array>
-    <string-array name="type_clock_minutes">
-        <item>Zero zero</item>
-        <item>Zero jeden</item>
-        <item>Zero dwa</item>
-        <item>Zero trzy</item>
-        <item>Zero cztery</item>
-        <item>Zero pięć</item>
-        <item>Zero sześć</item>
-        <item>Zero siedem</item>
-        <item>Zero osiem</item>
-        <item>Zero dziewięć</item>
         <item>Dziesięć</item>
         <item>Jedenaście</item>
         <item>Dwanaście</item>
@@ -108,7 +113,7 @@ sześć</item>
         <item>Pięćdziesiąt
 siedem</item>
         <item>Pięćdziesiąt
-osiem.</item>
+osiem</item>
         <item>Pięćdziesiąt
 dziewięć</item>
     </string-array>
