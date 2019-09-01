@@ -270,9 +270,6 @@
         <item>Normal</item>
         <item>Tampilan Sederhana</item>
     </string-array>
-    <!-- Elmyra -->
-    <string name="elmyra_raw_sensor_string_type">com.Google.sensor.Elmyra.Raw</string>
-    <string name="google_camera_app_package_name">com.google.android.GoogleCamera</string>
     <!-- OneHand mode QS tile -->
     <string name="qs_onehand_label">Mode satu tangan</string>
 </resources>

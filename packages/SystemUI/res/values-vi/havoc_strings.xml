@@ -270,9 +270,6 @@
         <item>Bình thường</item>
         <item>Thu nhỏ</item>
     </string-array>
-    <!-- Elmyra -->
-    <string name="elmyra_raw_sensor_string_type">com.Google.Sensor.elmyra.Raw</string>
-    <string name="google_camera_app_package_name">com.google.android.GoogleCamera</string>
     <!-- OneHand mode QS tile -->
     <string name="qs_onehand_label">Chế độ một tay</string>
 </resources>

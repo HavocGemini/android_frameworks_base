@@ -270,9 +270,6 @@
         <item>正常</item>
         <item>简洁</item>
     </string-array>
-    <!-- Elmyra -->
-    <string name="elmyra_raw_sensor_string_type">com.google.sensor.elmyra.raw</string>
-    <string name="google_camera_app_package_name">com.google.android.GoogleCalle</string>
     <!-- OneHand mode QS tile -->
     <string name="qs_onehand_label">单手模式</string>
 </resources>

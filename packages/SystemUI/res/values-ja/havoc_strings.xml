@@ -262,9 +262,6 @@
         <item>標準</item>
         <item>コンパクト</item>
     </string-array>
-    <!-- Elmyra -->
-    <string name="elmyra_raw_sensor_string_type">com.google.sensor.elmyra.raw</string>
-    <string name="google_camera_app_package_name">com.google.android.GoogleCamera</string>
     <!-- OneHand mode QS tile -->
     <string name="qs_onehand_label">片手モード</string>
     <!-- Screen pinning dialog description. (for devices without navbar) -->

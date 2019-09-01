@@ -270,9 +270,6 @@
         <item>Звичайний</item>
         <item>Компактний</item>
     </string-array>
-    <!-- Elmyra -->
-    <string name="elmyra_raw_sensor_string_type">ельміра</string>
-    <string name="google_camera_app_package_name">камера</string>
     <!-- OneHand mode QS tile -->
     <string name="qs_onehand_label">Режим керування однією рукою</string>
 </resources>
