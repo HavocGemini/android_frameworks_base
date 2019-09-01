@@ -104,7 +104,7 @@
     <string name="screenrecord_notif_error">قادر به ضبط از صفحه نمایش نیست</string>
     <string name="notification_channel_screenrecord">ضبط صفحه نمایش</string>
     <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g>•شارژر سریع وان پلاس (<xliff:g id="charging_time_left"example="4 hours and 2 minutes">%1$s</xliff:g>تا کامل)</string>
+    <string name="keyguard_indication_dash_charging_time">&lt;xliff:g id="percentage"&gt;%2$s&lt;/xliff:g&gt;•شارژر سریع وان پلاس (&lt;xliff:g id="charging_time_left"example="4 hours and 2 minutes"&gt;%1$s&lt;/xliff:g&gt;تا کامل)</string>
     <string name="keyguard_plugged_in_dash_charging">شارژ سریع وان پلاس</string>
     <string name="camera_title_tile">دوربین</string>
     <string name="suspend_title_tile">تعلیق اقدام</string>

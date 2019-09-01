@@ -56,7 +56,7 @@
     <string name="global_action_restart_recovery">রিকভারি</string>
     <string name="global_action_restart_bootloader">বুটলোডার</string>
     <string name="global_action_restart_ui">SystemUI</string>
-    <string name="global_action_restart_hot">উফফ্ রিবুট</string>
+    <string name="global_action_restart_hot">হট রিবুট</string>
     <string name="global_action_screenshot">স্ক্রিন ক্যাপচার</string>
     <!-- LTE QS Tile -->
     <string name="qs_lte_label">LTE</string>

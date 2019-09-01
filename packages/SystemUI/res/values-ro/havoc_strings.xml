@@ -114,7 +114,7 @@
     <string name="calendar_title_tile">Adaugă Eveniment</string>
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Notificarile sunt adormite pentru 1 minut.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g></xliff:g> - Notificarile sunt adormite pentru <xliff:g id="number">%2$d</xliff:g> minute.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - Notificarile sunt adormite pentru <xliff:g id="number">%2$d</xliff:g> minute.</string>
     <string name="statusbar_items_title">Iconiță bara de status</string>
     <string name="lockscreen_default">Implicit</string>
     <string name="lockscreen_hidden">Nimic</string>
