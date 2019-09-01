@@ -269,9 +269,6 @@
         <item>معمولی</item>
         <item>فشرده</item>
     </string-array>
-    <!-- Elmyra -->
-    <string name="elmyra_raw_sensor_string_type">com.google.sensor.elmyra.raw</string>
-    <string name="google_camera_app_package_name">دوربین گوگل</string>
     <!-- OneHand mode QS tile -->
     <string name="qs_onehand_label">حالت کار با یک دست</string>
 </resources>
