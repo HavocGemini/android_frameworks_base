@@ -558,6 +558,7 @@ public class SettingsBackupTest {
                  Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT,
                  Settings.Secure.LOCK_TO_APP_EXIT_LOCKED,
                  Settings.Secure.MANAGED_PROFILE_CONTACT_REMOTE_SEARCH,
+                 Settings.Secure.MANAGED_PROVISIONING_DPC_DOWNLOADED,
                  Settings.Secure.MULTI_PRESS_TIMEOUT,
                  Settings.Secure.NFC_PAYMENT_FOREGROUND,
                  Settings.Secure.NIGHT_DISPLAY_ACTIVATED,
