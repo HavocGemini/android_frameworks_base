@@ -72,7 +72,7 @@
     <string name="app_ops_audio_accessibility_volume">শব্দ সহায়ক মাত্রা</string>
     <string name="app_ops_auto_start">ডিভাইস চালু হওয়ার সময় স্টার্টআপ</string>
     <string name="app_ops_bind_accessibility_service">বিশেষ অ্যাক্সেস সুযোগ</string>
-    <string name="app_ops_bluetooth_scan">bluetooth স্ক্যানিং</string>
+    <string name="app_ops_bluetooth_scan">ব্লুটুথ স্ক্যানিং</string>
     <string name="app_ops_change_wallpaper">ওয়ালপেপার পরিবর্তন করুন</string>
     <string name="app_ops_delete_call_log">আপনার কল লগ মুছে ফেলুন</string>
     <string name="app_ops_delete_contacts">আপনার পরিচিতি মুছে ফেলুন</string>
