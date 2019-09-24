@@ -82,7 +82,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">64</integer>
+    <integer name="config_deviceHardwareKeys">87</integer>
         <!-- Any package that has one of the package names defined below will be prevented 
          from using specific sensors in order to stop battery drain --> 
     <string-array name="config_blockPackagesSensorDrain"> 
@@ -170,17 +170,17 @@
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)
     -->
-    <bool name="config_proximityCheckOnWake">false</bool>
+    <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">250</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Component name of the combo network location provider. -->
     <string name="config_comboNetworkLocationProvider" translatable="false">@null</string>
 
     <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
-    <bool name="config_cleanupUnusedFingerprints">true</bool>
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 
-    <bool name="config_button_brightness_support">false</bool>
+    <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
 
     <!-- Whether the device has outdated qti-telephony-common.jar -->
@@ -197,7 +197,7 @@
     <bool name="config_ignoreRssnrSignalLevel">false</bool>
 
     <!-- Does the device supports fast charging -->
-    <bool name="config_FastChargingLedSupported">false</bool>
+    <bool name="config_FastChargingLedSupported">true</bool>
     <!-- Default value for led color when fast charging is active -->
     <integer name="config_notificationsFastBatteryARGB">0xFF0000FF</integer>
 
@@ -224,10 +224,10 @@
     <bool name="config_physicalDisplayCutout">false</bool>
 
     <!-- Whether device supports an alt. ambient display -->
-    <bool name="config_alt_ambient_display">false</bool>
+    <bool name="config_alt_ambient_display">true</bool>
 
     <!-- True if the home button has the ability to wake up phone from lockscreen-->
-    <bool name="config_HomeWakeButton">false</bool>
+    <bool name="config_HomeWakeButton">true</bool>
 
     <!-- Whether to allow sending active app broadcast -->
     <bool name="config_allowActivePackageBroadcast">false</bool>
