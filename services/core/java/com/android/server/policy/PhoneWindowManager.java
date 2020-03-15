@@ -3749,6 +3749,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                         || attrs.hideTimeoutMilliseconds > TOAST_WINDOW_TIMEOUT) {
                     attrs.hideTimeoutMilliseconds = TOAST_WINDOW_TIMEOUT;
                 }
+<<<<<<< HEAD
 
                 switch(Settings.System.getInt(mContext.getContentResolver(), Settings.System.TOAST_ANIMATION, 1)) {
                 case 0:
@@ -3756,48 +3757,63 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                         break;
                 case 1:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Material;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 2:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Fade;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 3:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_SlideRight;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 4:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_SlideLeft;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 5:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Xylon;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 6:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Toko;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 7:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Tn;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 8:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Honami;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 9:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_FastFade;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 10:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_GrowFade;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 11:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_GrowFadeCenter;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 12:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_GrowFadeBottom;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 13:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_Translucent;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 14:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_SlideLeftRight;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
                 case 15:
                         attrs.windowAnimations = com.android.internal.R.style.Animation_Toast_SlideRightLeft;
+                        attrs.flags |= WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
                         break;
         }
     }
